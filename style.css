@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.logo{
+    margin-left: 3rem;
+}
+
+.btn-1{
+    margin-right: 40px ;
+}
+
+.principal{
+    margin-top: 100px;
+}
+
+svg{
+    margin-right: 20px;
+}
+
+
+
+#text{
+    font-size: 0.8rem;
+}
+
+img{
+    max-width: 100%;
+}
+
