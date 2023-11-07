@@ -50,7 +50,11 @@ img{
     }
 }*/
 
-@media (min-width: 375px) and (max-width: 640px) {
+.num-text{
+    opacity: 0.5;
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
     header, div{
         display: flex;
         flex-direction: column;
@@ -67,4 +71,19 @@ img{
         left: 20px;
         border:1px solid;
     }
+
+    .num{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon{
+        display: block;
+        margin: auto;
+    }
+    .num-text{
+        text-align: center;
+        opacity: 0.5;
+    }
+
 }
