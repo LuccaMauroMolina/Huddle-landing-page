@@ -54,6 +54,8 @@ img{
     opacity: 0.5;
 }
 
+
+
 @media (min-width: 360px) and (max-width: 640px) {
     header, div{
         display: flex;
@@ -69,7 +71,7 @@ img{
     .place-items-center{
         position: relative;
         left: 20px;
-        border:1px solid;
+        /*border:1px solid;*/
     }
 
     .num{
@@ -77,13 +79,12 @@ img{
         flex-direction: column;
     }
 
-    .icon{
+    /*.icon{
         display: block;
         margin: auto;
-    }
+    }*/
     .num-text{
         text-align: center;
         opacity: 0.5;
     }
-
 }
