@@ -76,6 +76,13 @@ img{
     opacity: 0.5;
 }
 
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
 
 
 @media (min-width: 360px) and (max-width: 740px) {
@@ -123,6 +130,10 @@ img{
     .sect-2{
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    #text{
+        font-size:0.69rem
     }
 
 }
